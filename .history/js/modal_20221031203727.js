@@ -8,6 +8,15 @@
 // //     this.classList.add("active");
 // //   });
 // // });
+// sizes.forEach(function (menu, index) {
+//   menu.addEventListener("click", function () {
+//     if (menu.classList.contains("active")) {
+//       menu.classList.remove("active");
+//     } else {
+//       menu.classList.add("active");
+//     }
+//   });
+// });
 
 // var toppings = document.querySelectorAll("btn__topping");
 

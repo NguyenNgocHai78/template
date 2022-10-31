@@ -121,16 +121,7 @@ input[type="radio"] {
   display: none;
 }
 
-input[type="radio"]:checked + label {
-  color: #ffffff;
-  background-color: #1fa198;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"]:checked + label {
+input[type="radio"]:checked + .size-radio {
   color: #ffffff;
   background-color: #1fa198;
 }

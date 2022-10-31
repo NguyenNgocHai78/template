@@ -110,7 +110,6 @@
   height: 50px;
   color: #1fa198;
   border: #1fa198 1px solid;
-  cursor: pointer;
 }
 .modal-btn:hover {
   color: #ffffff;
@@ -119,18 +118,4 @@
 
 input[type="radio"] {
   display: none;
-}
-
-input[type="radio"]:checked + label {
-  color: #ffffff;
-  background-color: #1fa198;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"]:checked + label {
-  color: #ffffff;
-  background-color: #1fa198;
 }

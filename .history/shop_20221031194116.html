@@ -414,12 +414,18 @@
                         <div class="product-modal-option ">
                             <h6 class="title">Kích cỡ:</h6>
                             <div class="product-modal-size">
-                                <input class="" type="radio" name="size" id="m_size" value="M" checked="checked">
-                                <label class="size-radio" for="m_size">M</label>
+                                <!-- <label class="size-radio active" for="m_size">M</label>
+                                    <input class="d-none" type="radio" name="size" id="m_size" value="M" checked>
                                 
-                                <input class="" type="radio" name="size" id="l_size" value="L">
-                                <label class="size-radio" for="l_size">L</label>
-                                
+                                <label class="size-radio" for="l_size">L
+                                    <input class="d-none" type="radio" name="size" id="l_size" value="L">
+                                </label> -->
+                                <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
                             </div>
 
                         </div>
@@ -434,22 +440,22 @@
                         <div class="product-modal-option align-items-start">
                             <h6 class="title">Topping:</h6>
                             <div class="product-modal-topping ">
-                                <input type="checkbox" name="tranchau" id="tranchau">
                                 <label class="topping-detail" for="tranchau">
-                                    Trân châu</label>
-                                
-                                    <input type="checkbox" name="suongsao" id="suongsao">
+                                    Trân châu
+                                    <input class="d-none" type="checkbox" name="tranchau" id="tranchau">
+                                </label>
                                 <label class="topping-detail" for="suongsao">
-                                    Sương sáo</label>
-                                
-                                    <input type="checkbox" name="cheese" id="cheese">
+                                    Sương sáo
+                                    <input class="d-none" type="checkbox" name="suongsao" id="suongsao">
+                                </label>
                                 <label class="topping-detail" for="cheese">
-                                    Kem Cheese</label>
-                                
-                                    <input type="checkbox" name="thach" id="thach">
+                                    Kem Cheese
+                                    <input class="d-none" type="checkbox" name="cheese" id="cheese">
+                                </label>
                                 <label class="topping-detail" for="thach">
-                                    Thạch dừa</label>
-                                
+                                    Thạch dừa
+                                    <input class="d-none" type="checkbox" name="thach" id="thach">
+                                </label>
                             </div>
                         </div>
 
