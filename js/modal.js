@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 var sizes = document.querySelectorAll('.size-radio');
 sizes.forEach(btn => {
     btn.addEventListener('click', function () {
@@ -22,4 +23,17 @@ toppings.forEach(tp => {
         }
         console.log($(this).hasClass('active'));
     } );
+=======
+$(document).ready(function () {
+
+    $('#modal-sum-btn').click(function (e) {
+        $('#modal-quantity').val(parseInt($('#modal-quantity').val()) + 1);
+    });
+    $('#modal-sub-btn').click(function (e) {
+        if (parseInt($('#modal-quantity').val()) > 1) {
+            $('#modal-quantity').val(parseInt($('#modal-quantity').val()) - 1);
+        }
+
+    });
+>>>>>>> Stashed changes
 });
