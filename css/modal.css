@@ -55,6 +55,20 @@
 }
 
 .quantity-control .quantity-num {
+    margin: 0 10px;
+    size: 1rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.quantity-control button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: #1fa198 solid 1px;
+  border-radius: 2px;
   margin: 0 10px;
   size: 1rem;
   width: 30px;
@@ -63,6 +77,18 @@
   justify-content: center;
   align-items: center;
 }
+.quantity-control button:hover {
+  background-color: #1fa198;
+  color: white;
+}
+
+.quantity-control .quantity-num {
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
 
 .product-modal-size {
   display: flex;

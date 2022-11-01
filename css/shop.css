@@ -13,6 +13,7 @@
     border: #1fa198 solid 1px;
     min-width: 180px;
     box-shadow: 0 0 8px #d7e0e0;
+    background-color: white;
 }
 
 .cart-product-heading {
@@ -133,6 +134,7 @@
 
 .product__item__pic {
     cursor: pointer;
+    background-size: 150px;
 }
 
 .menu-drop {
