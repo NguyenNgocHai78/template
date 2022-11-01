@@ -8,6 +8,18 @@
 // //     this.classList.add("active");
 // //   });
 // // });
+<<<<<<< Updated upstream
+=======
+// sizes.forEach(function (menu, index) {
+//   menu.addEventListener("click", function () {
+//     if (menu.classList.contains("active")) {
+//       menu.classList.remove("active");
+//     } else {
+//       menu.classList.add("active");
+//     }
+//   });
+// });
+>>>>>>> Stashed changes
 
 // var toppings = document.querySelectorAll("btn__topping");
 
