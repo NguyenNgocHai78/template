@@ -1,0 +1,6 @@
+.blog__details__pic > img{
+    max-width: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

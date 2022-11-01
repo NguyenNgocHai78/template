@@ -1,0 +1,9 @@
+.blog__details__pic{
+    max-width: 770px;
+}
+
+.blog__details__pic > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
