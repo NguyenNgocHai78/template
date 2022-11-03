@@ -52,7 +52,7 @@
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="container  ">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
@@ -80,16 +80,14 @@
 
     </header>
     <!-- Header Section End -->
-
+    <div class="breadcumb">
+        <h1>Thức uống</h1>
+        <h6>Tất cả sản phẩm</h6>
+        <hr>
+    </div>
     <!-- Shop Section Begin -->
     <section class="shop">
         <div class="container">
-            <div class="breadcumb">
-                <h1>Thức uống</h1>
-                <h6>Tất cả sản phẩm</h6>
-                <img src="assets/images/icon_tealeaves.png" width="500px" height="50px"
-                    style="object-fit: cover;scale: 0.5;">
-            </div>
 
 
             <div class="row">
@@ -405,7 +403,7 @@
             <div class="modal-content flex-row">
                 <div class="w-50">
                     <div class="product-modal-img">
-                        <img src="img/productv2/Dứa-Ép-min.png">
+                        <img src="img/product/product-12.jpg">
                     </div>
                 </div>
                 <div class="w-50 product-modal-detail">
@@ -416,7 +414,6 @@
                         <div class="product-modal-option ">
                             <h6 class="title">Kích cỡ:</h6>
                             <div class="product-modal-size">
-
                                 <input class="" type="radio" name="size" id="m_size" value="M" checked="checked">
                                 <label class="size-radio" for="m_size">M</label>
                                 
@@ -429,30 +426,30 @@
                         <div class="product-modal-option">
                             <h6 class="title">Số lượng:</h6>
                             <div class="quantity-control ">
-                                <button class=" " id="modal-sub-btn"><i class="fa-solid fa-minus item"></i> </button>
-                                <input type="text" disabled class="quantity-num" value="1" id="modal-quantity">
-                                <button class=" " id="modal-sum-btn"> <i class="fa-solid fa-plus item"></i> </button>
+                                <i class="fa-solid fa-minus item"></i>
+                                <div class="quantity-num">1</div>
+                                <i class="fa-solid fa-plus item"></i>
                             </div>
                         </div>
                         <div class="product-modal-option align-items-start">
                             <h6 class="title">Topping:</h6>
                             <div class="product-modal-topping ">
-                                <input type="checkbox" name="tranchau" id="tranchau">
+                                <input class="d-none" type="checkbox" name="tranchau" id="tranchau">
                                 <label class="topping-detail" for="tranchau">
                                     Trân châu</label>
-
-                                <input type="checkbox" name="suongsao" id="suongsao">
+                                
+                                    <input class="d-none" type="checkbox" name="suongsao" id="suongsao">
                                 <label class="topping-detail" for="suongsao">
                                     Sương sáo</label>
-
-                                <input type="checkbox" name="cheese" id="cheese">
+                                
+                                    <input class="d-none" type="checkbox" name="cheese" id="cheese">
                                 <label class="topping-detail" for="cheese">
                                     Kem Cheese</label>
-
-                                <input type="checkbox" name="thach" id="thach">
+                                
+                                    <input class="d-none" type="checkbox" name="thach" id="thach">
                                 <label class="topping-detail" for="thach">
                                     Thạch dừa</label>
-
+                                
                             </div>
                         </div>
 

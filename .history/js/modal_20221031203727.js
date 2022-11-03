@@ -1,0 +1,33 @@
+// const sizes = document.querySelectorAll(".size-radio");
+// var btns = document.querySelectorAll(".btn__size");
+// // sizes.forEach((size) => {
+// //   size.addEventListener("click", function () {
+// //     btns.forEach((b) => {
+// //       b.classList.remove("active");
+// //     });
+// //     this.classList.add("active");
+// //   });
+// // });
+// sizes.forEach(function (menu, index) {
+//   menu.addEventListener("click", function () {
+//     if (menu.classList.contains("active")) {
+//       menu.classList.remove("active");
+//     } else {
+//       menu.classList.add("active");
+//     }
+//   });
+// });
+
+// var toppings = document.querySelectorAll("btn__topping");
+
+// toppings.forEach((tp) => {
+//   tp.addEventListener("click", function () {
+//     if ($(this).hasClass("active")) {
+//       this.classList.remove("active");
+//     } else {
+//       console.log($(this).hasClass("active"));
+//       this.classList.add("active");
+//     }
+//     console.log($(this).hasClass("active"));
+//   });
+// });
